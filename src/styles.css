@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+#light {
+  background-color: #fff;
+}
+#dark {
+  background-color: #1b1c1d;
+}
+
+.radio-toggle{
+  transition: transform ease-in 0.1s;
+}
+
+.radio-toggle:hover{
+  transform: scale(1.1);
+}
+
+#titleBar{
+  width: 100vw;
+  padding: 5px 0 0px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#title{
+  display: flex;
+}
+
+.titleLetter{
+  padding: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 200%;
+  transition: transform ease-in 0.2s;
+}
+
+.titleLetter.dark{
+  color: #CF9FFF;
+}
+
+.titleLetter.light{
+  color: black
+}
+
+#appFooter{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 15px;
+  width: 100vw;
+}
+
+#appFooter.light{
+  color: black;
+}
+
+#appFooter.dark{
+  color: #CF9FFF;
+}

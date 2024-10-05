@@ -1,0 +1,77 @@
+.array-container {
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 5% 2% 2%;
+}
+
+.array-bar{
+  width: 7px;
+  display: inline-block;
+  margin: 0 2px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: x-small;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.array-bar.light {
+  background-color: #4ECCA3;
+}
+
+.array-bar.dark{
+  background-color: #CF9FFF
+}
+
+@media only screen and (max-width: 600px) {
+  .array-bar {
+    width: 4px;
+  }
+}
+
+.array-bar.active{
+  background: orangered;
+}
+
+.array-bar.copiedposition{
+  background: cornflowerblue;
+}
+.ant-btn{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#inputContainer{
+  padding: 1%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sliders{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+}
+
+#sizeSlider,#speedControl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+}
+
+.iconContainer{
+  padding: 5px;
+  margin: 5px;
+}
+
+button.sort-buttons.ui{
+  margin: 3px;
+}

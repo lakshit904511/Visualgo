@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Bubble Sort",
+        "facts":"Bubble sort is the easiest sorting algorithm to implement it is inspired by observing the behaviour of air bubbles over foam.It does not require any extra space to sort an array. Bubble sort uses multiple passes through an array in each pass it compares the adjacent elements of the array then swaps the element if they are in the wrong order.In each pass bubble sort places down the largest element to its correct position",
+        "complexity":"O(n^2)",
+        "adaptive":"Bubble sort is by default not adaptive but it can be made adaptable",
+        "stable":"Bubble sort is a stable sorting algorithm"
+    },
+    {
+        "name":"Insetion Sort",
+        "facts":"Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.We assume that the first element is already in its sorted position then we select the next unsorted element and place it to the right of the sorted element if the element happens to be smaller or to its right if it is greater through swapping",
+        "complexity":"O(n^2)",
+        "adaptive":"Insertion sort is an adaptive sorting algorithm it is appropriate for the sets of data that is partially sorted",
+        "stable":"Insertion sort is a stable sorting algorithm"
+    },
+    {
+        "name":"Selection Sort",
+        "facts":"The algorithm divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list and a sublist of the remaining unsorted items that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.",
+        "complexity":"O(n^2)",
+        "adaptive":"Selection sort is not adaptive sorting algorithm",
+        "stable":"Selection sort is not a stable sorting algorithm"
+    },
+    {
+        "name":"Quick Sort",
+        "facts":"Quick Sort follows the divide and conquer approach. Divide and conquer is a technique of breaking down the algorithms into subproblems, then solving the subproblems, and combining the results back together to solve the original problem.Divide, first pick a pivot element. After that, partition or rearrange the array into two sub-arrays such that each element in the left sub-array is less than or equal to the pivot element and each element in the right sub-array is larger than the pivot element.Quicksort picks an element as pivot, and then it partitions the given array around the picked pivot element. In quick sort, a large array is divided into two arrays in which one holds values that are smaller than the specified value (Pivot), and another array holds the values that are greater than the pivot.After that, left and right sub-arrays are also partitioned using the same approach. It will continue until the single element remains in the sub-array.",
+        "complexity":"O(nlogn)",
+        "adaptive":"Quick sort is not an adaptive sorting algorithm",
+        "stable":"Quick Sort by default is a not a stable sorting algorithm but it can be made stable by using stable quicksort"
+    },
+    {
+        "name":"Heap sort",
+        "facts":"Heap Sort processes the elements by creating the min-heap or max heap using the elements of the given array.Min-heap or Max-heap represents the ordering of array in which the root element represents the minimum or maximum element of the array. Heap sort repeatedly performs the operation of building Heap using elements in the array and then delete the first element of the array and adding it to the end of the array.The concept of heap sort is to eliminate the elements one by one from the heap part of the list and then insert them into the sorted part of the list",
+        "complexity":"O(nlogn)",
+        "adaptive":"Heap Sort is not an adaptive sorting algorithm",
+        "stable":"Heap Sort is not a stable sorting algorithm"
+    },
+    {
+        "name":"Merge Sort",
+        "facts":"Merge Sort is the sorting technique that follows the divide and conqure approach  It is one of the most popular and efficient sorting algorithm. It divides the given list into two equal halves, calls itself for the two halves and then merges the two sorted halves. We have to define the merge() function to perform the merging.The sub-lists are divided again and again into halves until the list cannot be divided further. Then we combine the pair of one element lists into two-element lists, sorting them in the process. The sorted two-element pairs is merged into the four-element lists, and so on until we get the sorted list",
+        "complexity":"O(nlogn)",
+        "adaptive":"Merge sort is not an adaptive sorting algorithm",
+        "stable":"Merge sort is a stable sorting algorithm"
+    }
+]
